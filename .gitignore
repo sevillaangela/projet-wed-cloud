@@ -1,0 +1,37 @@
+# Dépendances Node, recréées par npm install.
+node_modules/
+
+# Artefacts de sam build, recréés à chaque construction.
+# https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/using-sam-cli-build.html
+.aws-sam/
+
+# Variables d'environnement locales. L'exemple sans secret pourra être versionné.
+.env
+.env.*
+!.env.example
+
+# Clés et certificats.
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Identifiants AWS copiés par erreur dans le dossier du projet.
+# Le profil légitime reste dans ~/.aws/, hors du dépôt.
+.aws/
+credentials
+credentials.csv
+
+# Journaux, caches et couverture. tests/results/ reste versionné : ce sont les preuves.
+*.log
+npm-debug.log*
+.npm/
+coverage/
+dist/
+
+# Fichiers du système.
+.DS_Store
+Thumbs.db
+
+# Pièce jointe d'origine. La référence versionnée est docs/BRIEF_CURSOR.md.
+uploads/
