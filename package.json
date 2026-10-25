@@ -7,7 +7,8 @@
     "node": ">=22"
   },
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "accueil": "node web/server.js"
   },
   "dependencies": {
     "@pdf-lib/fontkit": "^1.1.1",

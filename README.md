@@ -4,6 +4,14 @@ Journal numérique écrit à plusieurs, puis distribué par un lien qui délivre
 
 Les décisions déjà prises sont dans [`docs/BRIEF_CURSOR.md`](docs/BRIEF_CURSOR.md). Ce fichier est la référence unique du projet.
 
+## Voir l'accueil, sans AWS
+
+```bash
+npm run accueil
+```
+
+Ouvre [http://127.0.0.1:47231](http://127.0.0.1:47231). Tu dois lire « Journal de l'école » et deux parutions marquées « Exemple ». Aucun compte AWS n'est nécessaire.
+
 ## Prérequis
 
 À installer sur ta machine, avec les pages officielles :
