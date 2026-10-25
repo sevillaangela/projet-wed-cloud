@@ -10,7 +10,7 @@ Les décisions déjà prises sont dans [`docs/BRIEF_CURSOR.md`](docs/BRIEF_CURSO
 npm run accueil
 ```
 
-Ouvre [http://127.0.0.1:47231](http://127.0.0.1:47231). Tu dois lire « Journal de l'école » et deux parutions marquées « Exemple ». Aucun compte AWS n'est nécessaire.
+Ouvre [http://127.0.0.1:47231](http://127.0.0.1:47231). Tu dois lire « Journal de l'école » et deux parutions marquées « Exemple ». « Espace rédacteur » ouvre [http://127.0.0.1:47231/entree.html](http://127.0.0.1:47231/entree.html) : un nom et une adresse, retenus dans le navigateur seulement. Aucun compte AWS n'est nécessaire.
 
 ## Prérequis
 

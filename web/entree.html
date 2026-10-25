@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entrée rédacteur — Journal de l'école</title>
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/entree.css">
+  </head>
+  <body>
+    <header class="masthead">
+      <p class="kicker">Espace rédacteur</p>
+      <h1>Qui écrit ?</h1>
+      <p class="rule">Un nom et une adresse e-mail suffisent.</p>
+    </header>
+
+    <main>
+      <p class="banner">
+        Le sujet n'exige pas de vrai compte. Cette page retient le nom
+        et l'adresse dans ce navigateur seulement. Rien n'est vérifié,
+        rien n'est envoyé.
+      </p>
+
+      <form id="entree">
+        <label>
+          Nom
+          <input name="nom" type="text" autocomplete="name" required maxlength="80">
+        </label>
+        <label>
+          Adresse e-mail
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+        <div class="actions">
+          <button type="submit">Entrer</button>
+          <button type="button" id="effacer">Effacer</button>
+        </div>
+      </form>
+      <p id="message" class="note" role="status"></p>
+      <p><a href="index.html">Retour à l'accueil</a></p>
+    </main>
+
+    <footer>
+      <p>Page ouverte sur cet ordinateur. AWS n'est pas contacté.</p>
+    </footer>
+    <script type="module" src="js/entree.js"></script>
+  </body>
+</html>

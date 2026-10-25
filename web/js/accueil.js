@@ -1,5 +1,4 @@
 const messagesEspaces = {
-  redacteur: 'L’espace rédacteur viendra plus tard. Cette page ne contacte pas AWS.',
   association: 'L’espace association viendra plus tard. Cette page ne contacte pas AWS.',
 }
 

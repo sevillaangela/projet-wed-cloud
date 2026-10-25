@@ -52,7 +52,8 @@ h2 {
   margin-top: 1rem;
 }
 
-button {
+button,
+.actions a {
   border: 1px solid #1c1915;
   background: #fffdf8;
   color: inherit;
@@ -60,10 +61,13 @@ button {
   padding: 0.55rem 0.9rem;
   font: inherit;
   cursor: pointer;
+  text-decoration: none;
 }
 
 button:hover,
-button:focus-visible {
+button:focus-visible,
+.actions a:hover,
+.actions a:focus-visible {
   background: #1c1915;
   color: #f3efe4;
 }
@@ -137,7 +141,7 @@ footer {
     font-size: 2rem;
   }
 
-  .actions,
+  .actions > *,
   .issue button {
     width: 100%;
   }
