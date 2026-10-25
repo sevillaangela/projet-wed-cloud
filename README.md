@@ -43,7 +43,14 @@ Les commandes seront écrites à l'étape 2, après un essai réel de `sam deplo
 
 ## Tester
 
-Les commandes seront écrites avec les premiers tests. Les résultats bruts iront dans `tests/results/`. Ce dossier n'est pas ignoré par Git.
+Le premier test produit un PDF français avec une police intégrée. Les autres vérifications de l'étape 1 sont notées dans `tests/results/2026-10-25-etape-1.md`.
+
+```bash
+npm install
+npm test
+```
+
+Résultat attendu : `Test Files  1 passed` et `Tests  1 passed`. Le fichier `tests/results/2026-10-25-etape-1-pdf-accents.pdf` est réécrit. Il contient la phrase « À l'école, l'été, le cœur coûte 10 €. »
 
 ## Supprimer
 
